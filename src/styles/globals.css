@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'chivo-regular';
+  src: url('../../public/font/chivo/Chivo-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'the_seasonslight';
+  src: url('../../public/font/theseasons/LIGHT/theseasons-lt-webfont.woff') format('woff'),
+       url('../../public/font/theseasons/LIGHT/theseasons-lt-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'the_seasonslight_italic';
+  src: url('../../public/font/theseasons/LIGHT ITALIC/theseasons-ltit-webfont.woff') format('woff'),
+       url('../../public/font/theseasons/LIGHT ITALIC/theseasons-ltit-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'the_seasonsregular';
+  src: url('../../public/font/theseasons/REGULAR/theseasons-reg-webfont.woff') format('woff'),
+       url('../../public/font/theseasons/REGULAR/theseasons-reg-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'the_seasonsitalic';
+  src: url('../../public/font/theseasons/ITALIC/theseasons-it-webfont.woff') format('woff'),
+       url('../../public/font/theseasons/ITALIC/theseasons-it-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'the_seasonsbold';
+  src: url('../../public/font/theseasons/BOLD/theseasons-bd-webfont.woff') format('woff'),
+       url('../../public/font/theseasons/BOLD/theseasons-bd-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'the_seasonsbold_italic';
+  src: url('../../public/font/theseasons/BOLD ITALIC/theseasons-bdit-webfont.woff') format('woff'),
+       url('../../public/font/theseasons/BOLD ITALIC/theseasons-bdit-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'hero_new_bold';
+  src: url('../../public/font/hero_new/Hero New Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_bold_italic';
+  src: url('../../public/font/hero_new/Hero New Bold Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_extra_bold';
+  src: url('../../public/font/hero_new/Hero New ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_extra_bold_italic';
+  src: url('../../public/font/hero_new/Hero New ExtraBold Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_hairline';
+  src: url('../../public/font/hero_new/Hero New Hairline.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_hairline_italic';
+  src: url('../../public/font/hero_new/Hero New Hairline Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_light_italic';
+  src: url('../../public/font/hero_new/Hero New Light Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_light';
+  src: url('../../public/font/hero_new/Hero New Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_medium_italic';
+  src: url('../../public/font/hero_new/Hero New Medium Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_medium';
+  src: url('../../public/font/hero_new/Hero New Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_semi_bold_italic';
+  src: url('../../public/font/hero_new/Hero New SemiBold Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_semi_bold';
+  src: url('../../public/font/hero_new/Hero New SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_super_italic';
+  src: url('../../public/font/hero_new/Hero New Super Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_super';
+  src: url('../../public/font/hero_new/Hero New Super.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_thin_italic';
+  src: url('../../public/font/hero_new/Hero New Thin Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_thin';
+  src: url('../../public/font/hero_new/Hero New Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_ultra_light_italic';
+  src: url('../../public/font/hero_new/Hero New UltraLight Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_ultra_light';
+  src: url('../../public/font/hero_new/Hero New UltraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_regular';
+  src: url('../../public/font/hero_new/Hero New Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'hero_new_regular_italic';
+  src: url('../../public/font/hero_new/Hero New Regular Italic.woff') format('woff');
+}
+
+
+
+@font-face {
+  font-family: 'frank-ruhl-libre-black';
+  src: url('../../public/font/frank_ruhl_libre/FrankRuhlLibre-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'frank-ruhl-libre-bold';
+  src: url('../../public/font/frank_ruhl_libre/FrankRuhlLibre-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'frank-ruhl-libre-extra-bold';
+  src: url('../../public/font/frank_ruhl_libre/FrankRuhlLibre-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'frank-ruhl-libre-light';
+  src: url('../../public/font/frank_ruhl_libre/FrankRuhlLibre-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'frank-ruhl-libre-medium';
+  src: url('../../public/font/frank_ruhl_libre/FrankRuhlLibre-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'frank-ruhl-libre-regular';
+  src: url('../../public/font/frank_ruhl_libre/FrankRuhlLibre-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'frank-ruhl-libre-semi-bold';
+  src: url('../../public/font/frank_ruhl_libre/FrankRuhlLibre-SemiBold.woff') format('woff');
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+.modal {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modal-open {
+  opacity: 1;
+}
+
+
+input[album], textarea[album]{
+  background-color: transparent;
+  outline: unset;
+}
+
+input::placeholder, textarea::placeholder {
+  color:#CB967F;
+}
+
+
+input, text {
+  color: #972e00 !important;
+}
+
+
+html, body {
+  scroll-behavior: smooth;
+}

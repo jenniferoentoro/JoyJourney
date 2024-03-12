@@ -1,0 +1,65 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   */
+  
+  .scrollText{
+    display: inline-block;
+    width: 100%;
+    width: 3000px;
+    display: inline-block;
+    font-size: 100px;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .scrollText_rightLeft{
+    position: absolute;
+    right: 0;
+    top: 45%;
+    z-index: 0;
+  }
+  
+  .scrollText_leftRight{
+    position: absolute;
+    left: 0;
+    top: 60%;
+    -webkit-text-stroke: 2px black;
+    text-stroke: 2px black;
+    color: transparent;
+    z-index: 2;
+  }
+  
+  #imageSection_Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  
+  #imageSecton2{
+    width: 70vw;
+    height: auto;
+    margin: 10rem 0 0 0;
+    z-index: 1;
+  }
+  
+  .paragraf{
+    width: 50vw;
+    font-size: 2rem;
+    text-align: center;
+    margin: 4rem 0;
+  }
+  
+  
+  
+  

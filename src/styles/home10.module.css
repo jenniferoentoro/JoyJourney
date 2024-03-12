@@ -1,0 +1,11 @@
+
+  
+  .button.disabled {
+    color: #CB967F;
+  }
+  
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+}
+

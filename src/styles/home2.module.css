@@ -1,0 +1,63 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   */
+
+  .scrollText{
+    display: inline-block;
+    width: 100%;
+    width: 3000px;
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .scrollText_rightLeft{
+    position: absolute;
+    right: 0;
+    z-index: 0;
+  }
+  
+  .scrollText_leftRight{
+    position: absolute;
+    left: -25%;
+    -webkit-text-stroke: 1px #3D210F;
+    text-stroke: 1px #3D210F;
+    color: transparent;
+    z-index: 2;
+    mix-blend-mode: difference;
+    filter: brightness(100);
+  }
+
+  @media (min-width: 1024px) {
+    .scrollText_leftRight{
+      -webkit-text-stroke: 2px #3D210F;
+      text-stroke: 2px #3D210F;
+    }
+  }
+  
+  .imageSection_Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .imageSecton2{
+    height: auto;
+    z-index: 1;
+  }
+  
+  .paragraf{
+    letter-spacing: 3%;
+  }
+  
+  
+  
+  

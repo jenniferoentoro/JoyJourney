@@ -1,0 +1,30 @@
+/* @keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+.isStickyCss {
+  position: sticky;
+  top: 10px;
+  z-index: 999;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.isFixedCss {
+  position: fixed;
+  top: 10px;
+  z-index: 999;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.active {
+  background-image: url('/images/check.png');
+  background-repeat: no-repeat;
+  
+}

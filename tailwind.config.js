@@ -1,0 +1,55 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  fontWeight: {
+    heroLight: 300,
+    heroRegular: 400,
+    heroBold: 700,
+  },
+  theme: {
+    fontFamily: {
+      'chivo-regular' : ['chivo-regular', 'sans-serif'],
+      
+      'hero-new-bold': ['hero_new_bold', 'sans-serif'],
+      'hero-new-bold-italic': ['hero_new_bold_italic', 'sans-serif'],
+      'hero-new-extra_bold': ['hero_new_extra_bold', 'sans-serif'],
+      'hero-new-extra_bold-italic': ['hero_new_extra_bold_italic', 'sans-serif'],
+      'hero-new-hairline': ['hero_new_hairline', 'sans-serif'],
+      'hero-new-hairline-italic': ['hero_new_hairline_italic', 'sans-serif'],
+      'hero-new-light-italic': ['hero_new_light_italic', 'sans-serif'],
+      'hero-new-light': ['hero_new_light', 'sans-serif'],
+      'hero-new-medium-italic': ['hero_new_medium_italic', 'sans-serif'],
+      'hero-new-medium': ['hero_new_medium', 'sans-serif'],
+      'hero-new-semi_bold-italic': ['hero_new_semi_bold_italic', 'sans-serif'],
+      'hero-new-semi_bold': ['hero_new_semi_bold', 'sans-serif'],
+      'hero-new-super-italic': ['hero_new_super_italic', 'sans-serif'],
+      'hero-new-super': ['hero_new_super', 'sans-serif'],
+      'hero-new-thin-italic': ['hero_new_thin_italic', 'sans-serif'],
+      'hero-new-thin': ['hero_new_thin', 'sans-serif'],
+      'hero-new-ultra_light-italic': ['hero_new_ultra_light_italic', 'sans-serif'],
+      'hero-new-regular': ['hero_new_regular', 'sans-serif'],
+      'hero-new-regular-italic': ['hero_new_regular_italic', 'sans-serif'],
+      'hero-new-ultra-light': ['hero_new_ultra_light', 'sans-serif'],
+      
+      'the-seasons-light': ['the_seasonslight', 'sans-serif'],
+      'the-seasons-light-italic': ['the_seasonslight_italic', 'sans-serif'],
+      'the-seasons-regular': ['the_seasonsregular', 'sans-serif'],
+      'the-seasons-italic': ['the_seasonsitalic', 'sans-serif'],
+      'the-seasons-bold': ['the_seasonsbold', 'sans-serif'],
+      'the-seasons-bold-italic': ['the_seasonsbold_italic', 'sans-serif'],
+
+      'frank-ruhl-libre-libre-black': ['frank-ruhl-libre-black', 'sans-serif'],
+      'frank-ruhl-libre-libre-bold': ['frank-ruhl-libre-bold', 'sans-serif'],
+      'frank-ruhl-libre-extra-bold': ['frank-ruhl-libre-extra-bold', 'sans-serif'],
+      'frank-ruhl-libre-light': ['frank-ruhl-libre-light', 'sans-serif'],
+      'frank-ruhl-libre-medium': ['frank-ruhl-libre-medium', 'sans-serif'],
+      'frank-ruhl-libre-regular': ['frank-ruhl-libre-regular', 'sans-serif'],
+      'frank-ruhl-libre-semi-bold': ['frank-ruhl-libre-semi-bold', 'sans-serif'],
+    },
+  },
+  plugins: [],
+}

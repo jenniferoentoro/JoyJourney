@@ -1,0 +1,4 @@
+.countdown{
+  mix-blend-mode: difference;
+  filter: brightness(100);
+}

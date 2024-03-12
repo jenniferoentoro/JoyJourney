@@ -1,0 +1,7 @@
+/* Import slick-theme.css */
+@import url('slick-carousel/slick/slick-theme.css');
+
+/* Customize the styles */
+.slick-next:before {
+  content: none;
+}
